@@ -26,7 +26,7 @@ def shop():
             <body>
                 <h1>Welcome to the Shop</h1>
                 <p>This is a dummy shop page.</p>
-                /Back to Home</a>
+                <a hrefo Home</a>
             </body>
         </html>
     ''')
