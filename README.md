@@ -1,2 +1,3 @@
 # E-Comm-Demo
 Created a demo E-comm application to work with jira, docker....
+Login enabled and tested
