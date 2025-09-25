@@ -17,6 +17,19 @@ def home():
         </html>
     ''')
 
+# Shop page
+@app.route('/shop')
+def shop():
+    return render_template_string('''
+        <html>
+            <head><title>Shop Page</title></head>
+            <body>
+                <h1>Welcome to the Shop</h1>
+                <p>This is a dummy shop page.</p>
+                /Back to Home</a>
+            </body>
+        </html>
+    ''')
 
 if __name__ == '__main__':
     app.run(debug=True)
